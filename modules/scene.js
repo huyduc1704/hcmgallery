@@ -24,7 +24,7 @@ export const setupScene = () => {
 
   // Add Sky Sphere (Environment)
   const loader = new THREE.TextureLoader();
-  const texture = loader.load("/img/museum-hall.png");
+  const texture = loader.load("/images/museum-hall.png");
   texture.colorSpace = THREE.SRGBColorSpace;
   
   const sphereGeometry = new THREE.SphereGeometry(50, 60, 40); // Large sphere surrounding the scene
